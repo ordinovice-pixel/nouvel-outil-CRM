@@ -116,7 +116,56 @@ Limites connues : quotas d'envoi Gmail d'un compte gratuit (environ 100 destinat
 
 ## Captures d'écran
 
-*Bientôt : aperçus de l'outil sur téléphone et sur PC (données de démonstration, clients fictifs).*
+*Les noms, coordonnées et références visibles sont fictifs.*
+
+### Accueil
+Les actions du quotidien en un clic, et les règlements en attente.
+
+![Accueil](captures/01-accueil.png)
+
+### Base clients
+Recherche instantanée et filtres : actifs, contrat en cours, crédit temps, informations manquantes, inactifs.
+
+![Clients](captures/02-clients.png)
+
+### Saisir une intervention
+Le pense-bête « Avant de partir », puis une saisie rapide : lieu, durée, ce qui a été fait.
+
+![Saisie d'une intervention](captures/06-saisie-intervention.png)
+
+Chaque intervention est obligatoirement rattachée à une contrepartie : règlement, crédit temps, appel de maintenance, appel inclus ou gratuité motivée.
+
+![Contrepartie de l'intervention](captures/06b-saisie-contrepartie.png)
+
+### Dernières prestations
+Les 20 dernières saisies, avec un lien direct vers chaque facture.
+
+![Dernières prestations](captures/03-dernieres-prestations.png)
+
+### Crédit temps
+Le solde de chaque client, par type de forfait, et le total encore dû.
+
+![Crédit temps](captures/04-credit-temps.png)
+
+### Maintenances
+Les appels de maintenance en retard, de la semaine et à venir, avec les actions : appeler, fixer le rendez-vous, décaler, ignorer.
+
+![Maintenances](captures/05-maintenances.png)
+
+### Encaisser un chèque
+Photo du chèque, lecture par l'IA et suivi de la dépense.
+
+![Encaisser un chèque](captures/07-encaisser-cheque.png)
+
+### Facture
+Générée automatiquement aux couleurs de la charte, avec les mentions légales de la micro-entreprise.
+
+![Facture](captures/08-facture.png)
+
+### Menu
+Toutes les rubriques de l'outil.
+
+![Menu](captures/09-menu.png)
 
 ---
 
