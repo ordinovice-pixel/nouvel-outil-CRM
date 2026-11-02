@@ -144,7 +144,9 @@ Limites connues : quotas d'envoi Gmail d'un compte gratuit (environ 100 destinat
 
 ## Droits
 
-© 2026 Jean-François Madeline — OrdiNovice. Tous droits réservés.\nCe dépôt présente l'outil ; le code source n'est pas publié pour le moment.
+© 2026 Jean-François Madeline — OrdiNovice. Tous droits réservés.
+
+Ce dépôt présente l'outil ; le code source n'est pas publié pour le moment.
 
 ## Contact
 
