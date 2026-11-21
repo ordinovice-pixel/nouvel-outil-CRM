@@ -29,11 +29,14 @@ L'objectif : **un seul outil**, accessible partout, qui relie tout automatiqueme
 
 ### 📱 « Je sors de chez un client » — la saisie express sur mobile
 - Un écran unique pour enregistrer l'intervention, le règlement et le commentaire en quelques secondes.
+- **Menu des prestations lisible** : des cartes en couleurs pastel, regroupées par famille (Dépannage, Installation, Initiation et formation, IA+Simple, Crédit temps, Maintenance), avec le prix de chaque prestation.
 - Chaque intervention est **obligatoirement** rattachée à une contrepartie : règlement, **règlement déjà saisi** (chèque reçu avant la prestation), crédit temps, appel de maintenance ou gratuité motivée.
 - Les **coordonnées du client** (e-mail, téléphone, adresse) se complètent sur place, sans perdre la saisie en cours.
 - Avant d'enregistrer, l'outil demande : créer la facture ? l'envoyer au client ? appliquer la réduction parrainage ?
+- **Pièce jointe au mail** : un document enregistré une fois (le RIB, par exemple) se coche en un geste et part avec la facture ou le mail de remerciement.
 - **Protection contre la double saisie** : un double appui ou un nouvel essai après une coupure réseau ne crée jamais deux prestations, et une saisie identique le même jour demande confirmation.
 - Petit rappel bienveillant en sortant d'une intervention sur place : *ai-je bien repris mon chargeur, mes clés, mon sac… ?*
+- Chaque bouton affiche « Patientez… » pendant que l'outil travaille : on sait toujours que le clic a été pris en compte, et un double clic ne déclenche rien deux fois.
 
 ### ⏱️ Crédit temps (forfaits d'assistance prépayés)
 - Achat d'un forfait (90 min, 5 h, 10 h) → le crédit est **ajouté automatiquement** au solde du client.
@@ -48,7 +51,8 @@ L'objectif : **un seul outil**, accessible partout, qui relie tout automatiqueme
 
 ### 🧾 Factures et encaissements
 - Une facture par règlement, générée en PDF aux couleurs de la charte graphique, avec les mentions légales de la micro-entreprise et une numérotation chronologique continue.
-- Envoi au client par e-mail depuis l'outil, au choix (l'outil demande avant de créer et d'envoyer), et renvoi possible à tout moment.
+- Envoi au client par e-mail depuis l'outil, au choix (l'outil demande avant de créer et d'envoyer), avec une pièce jointe si besoin (RIB), et renvoi possible à tout moment.
+- Un avoir créé pour annuler un doublon de saisie n'est jamais envoyé au client.
 - Règlement « pas encore payé » : à l'arrivée du chèque, **encaissement daté** (date d'encaissement, moyen, numéro de chèque) pour un livre des recettes juste.
 - Une facture émise ne se supprime pas : correction par avoir, conformément aux règles légales.
 
@@ -93,7 +97,7 @@ L'objectif : **un seul outil**, accessible partout, qui relie tout automatiqueme
 | **Gmail** (`MailApp`) | Envoi des factures, remerciements, récapitulatif matinal, campagnes ciblées |
 | **Google Agenda** (`CalendarApp`) | Lecture des rendez-vous clients, création des appels de maintenance |
 | **Google Tasks** (service avancé) | Tâches du jour dans le récapitulatif matinal |
-| **Google Drive** (`DriveApp`) | Factures PDF, photos de chèques, sauvegardes |
+| **Google Drive** (`DriveApp`) | Factures PDF, photos de chèques, pièces jointes des mails, sauvegardes |
 | **API Claude** (Anthropic) | Lecture des photos de chèques |
 | **Déclencheurs Apps Script** | Tâches planifiées (récap du matin, rappels, sauvegarde hebdomadaire) |
 
@@ -198,6 +202,7 @@ Toutes les rubriques de l'outil.
 - [x] Récapitulatif matinal et rappels
 - [x] E-mailing ciblé, messages modifiables, infos arnaques et IA
 - [x] Remerciement automatique, parrainage, protection contre la double saisie
+- [x] Menu des prestations en couleurs, prestations IA+Simple, pièces jointes aux mails, indicateur « Patientez »
 - [ ] Lien vers un avis Google dans tous les mails
 - [ ] Synchronisation des fiches clients vers Google Contacts (sans toucher aux contacts personnels)
 - [ ] Rubrique IA+Simple (promotion des ateliers et services IA)
